@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: #333333;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 5% 20%;
+    text-align: left;
+    line-height: 1.6em;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-a, .container-d{
+    height: 100vh;
+}
+
+.container b{
+    color: #f76c6c;
+}
+
+.container h1{
+    color: white;
+}
+
+.container-a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container-a h1{
+    margin: auto;
+    font-size: 3em;
+    color: white;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.container-b {
+    justify-content: center;
+    margin: 0 auto;
+    background: #333333;
+    padding-top: 184px;
+}
+
+.container-b ul{
+    margin: 5% auto;
+    line-height: 2em;
+}
+
+.container-b li{
+    margin: 10px auto;
+}
+
+.container-b div{
+    margin: auto 5%;
+}
+
+.container-b p{
+    color: white;
+ }
+
+.container-b img{
+    object-fit: cover;
+    /*width: 50%;*/
+    max-width: 500px;
+}
+
+.container-c{
+    background: #f76c6c;
+}
+
+.container-c h1{
+    margin: 1.5em 0 0;
+}
+
+.container-c h2{
+    margin: 8px 0;
+    color: #333333;
+}
+
+.container-c p{
+    margin: 5% auto 0;
+    font-weight: 500;
+}
+
+.container-c b{
+    color: #333333;
+}
+
+.container-d{
+    margin: 0 auto;
+    /*background: #333333;*/
+    background-image: url("../img/red-gray.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-d p{
+    font-weight: 500;
+    font-size: 1em;
+    margin: 5% auto;
+}
+
+.img-container{
+    display: flex;
+    margin: auto 10%;
+}
+
+
+.bg-img{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: url("../img/mojave.jpg") no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.container-a:hover .bg-img{
+    filter: blur(10px);
+}
+
+.container-a:hover h1{
+    opacity: 1;
+}
+
+@media (max-width: 1460px), (orientation: portrait){
+    .img-container{
+        flex-direction: column;
+    }
+}

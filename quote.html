@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web project - Quotations</title>
+    <link rel="stylesheet" href="style/quote.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container container-b">
+    <h1 class="title">Quotations explained</h1>
+<!--    <div class="block quoting">-->
+        <div class="block">
+        <h3>The Block Quotation element</h3>
+        <blockquote>The HTML Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended
+            quotation. Usually, this is rendered visually by indentation. A URL for the
+            source of the quotation may be given using the cite attribute, while a text representation of the source can
+            be given using the cite element.
+        </blockquote>
+        </div>
+        <div class="block q">
+            <h3>The Inline Quotation element</h3>
+            <p>The HTML q element indicates that the enclosed text is a short inline quotation. Most modern browsers
+            implement this by surrounding the text in quotation marks. This element is intended for short quotations
+            that don't require paragraph breaks; for long quotations use the
+            blockquote element.</p>
+        </div>
+        <div class="quotation">
+            <q>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</q>
+            <p class="author">- Albert Einstein</p>
+        </div>
+        <div class="quotation">
+            <q>I am so clever that sometimes I don't understand a single word of what I am saying.</q>
+            <p class="author">- Oscar Wilde</p>
+        </div>
+        <div class="quotation">
+            <q>Life is what happens to us while we are making other plans.</q>
+            <p class="author">- Allen Saunders</p>
+        </div>
+        <div class="block cite">
+            <h3>The Citation element</h3>
+            <p>The HTML Citation element is used to describe a reference to a cited creative work, and must include the
+                title of that work, for example <cite>Fahrenheit 451 </cite> Novel by Ray Bradbury</p>
+        </div>
+    </div>
+<!--</div>-->
+<div class="container container-a">
+    <div class="block code">
+        <h3>The Inline Code element</h3>
+        <p>The HTML code element displays its contents styled in a fashion intended to indicate that the text is a short
+            fragment of computer code. By default, the content text is displayed using the user agent's default
+            monospace
+            font.</p>
+        <code>print("change da world my final message. Goodbye")</code>
+    </div>
+
+    <div class="block del-ins">
+        <h3>del and ins elements</h3>
+        <p>The HTML
+            element represents a range of text that has been added to a document. You can use the
+            element to similarly represent a range of text that has been deleted from the document.
+        </p>
+        <del>- Kinda looks like github commits</del>
+        <br>
+        <ins>+ Actually it doesn't, sorry</ins>
+    </div>
+    <div class="block pre">
+        <h3>The Preformatted Text element</h3>
+        <p>The HTML pre element represents preformatted text which is to be presented exactly as written in the HTML
+            file. The text is typically rendered using a non-proportional ("monospace") font. Whitespace inside this
+            element is displayed as written.
+        </p>
+        <pre>Pre-formatted text</pre>
+    </div>
+    <div class="block sample">
+        <h3>The Sample Output element</h3>
+        <p>The HTML Sample Element is used to enclose inline text which represents sample (or quoted) output from a
+            computer program. Its contents are typically rendered using the browser's default monospaced font (such as
+            Courier or Lucida Console).</p>
+        <samp>Please press '8' to question nothing</samp>
+    </div>
+    <div class="block time">
+        <h3>time element</h3>
+        <p>The HTML time element represents a specific period in time. It may include the datetime attribute to translate
+            dates into machine-readable format, allowing for better search engine results or custom features such as
+            reminders.
+        </p>
+        <h5>The deadline of this project is at
+            <time datetime="00:00">00:00</time>
+            on
+            <time datetime="2020-04-19">April 19, Saturday</time>
+        </h5>
+    </div>
+</div>
+</div>
+</body>
+</html>

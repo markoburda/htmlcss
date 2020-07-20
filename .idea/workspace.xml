@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aed07ec7-4431-40fd-91f5-4d3a68a084b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/Alcoholics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/Drinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/Inspectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/FetchList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/HomeSelectButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/ListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/style/alcoholics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/style/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/style/res.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db-interface/src/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.idea/web-singlepage-hw-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/format.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CSS3_logo_and_wordmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/HTML5_Badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Hamburger_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mountains.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/triangles-orange.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar/navbar-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar/navbar-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar/style/navbar-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar/style/navbar-red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar/style/navbar-white.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar/style/navbar-white.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar/style/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/query.html" beforeDir="false" afterPath="$PROJECT_DIR$/query.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/quote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantics.html" beforeDir="false" afterPath="$PROJECT_DIR$/semantics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/format.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/format.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/grid2.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/grid2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/images.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/images.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/lists.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/lists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/query.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/query.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/quote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/semantics.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/semantics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/videoplayback.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/GridElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/GridElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/PreviewGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/PreviewGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/SideBarElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/Components/SideBarElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/i11pro-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/i11pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/ise2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/minote10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/p40pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/pixel4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/img/s20ultra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/grid-preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/grid-preview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/sidebar-element.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/sidebar-element.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/src/style/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-singlepage-hw-1/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../web-singlepage-hw-1/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aZcS72o8ijE6T2PXl3DZ2a8kbV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-singlepage-hw-1" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\img" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\style" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\video" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\.navbar\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\img" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\img\SVG" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\img\2dch" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\video" />
+      <recent name="D:\Apps\Projects\WebStormProjects\Website_hw\.navbar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.grid.html">
+    <configuration name="grid.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website_hw/grid.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website_hw/input.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navbar-template.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website_hw/navbar/navbar-template.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="semantics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website_hw/semantics.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tables.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Website_hw/tables.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.grid.html" />
+        <item itemvalue="JavaScript Debug.tables.html" />
+        <item itemvalue="JavaScript Debug.navbar-template.html" />
+        <item itemvalue="JavaScript Debug.semantics.html" />
+        <item itemvalue="JavaScript Debug.input.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aed07ec7-4431-40fd-91f5-4d3a68a084b9" name="Default Changelist" comment="" />
+      <created>1586946552394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586946552394</updated>
+      <workItem from="1586946553840" duration="3565000" />
+      <workItem from="1586952302672" duration="20947000" />
+      <workItem from="1586993819215" duration="2806000" />
+      <workItem from="1587029110940" duration="42051000" />
+      <workItem from="1587113189666" duration="35923000" />
+      <workItem from="1587198220597" duration="41402000" />
+      <workItem from="1587248247205" duration="625000" />
+      <workItem from="1587288754181" duration="497000" />
+      <workItem from="1587322059746" duration="66000" />
+      <workItem from="1587385116689" duration="14356000" />
+      <workItem from="1587463415238" duration="63000" />
+      <workItem from="1587893198192" duration="201000" />
+      <workItem from="1594897681248" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587245461756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587245461756" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587205922566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587205922566" />
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1594897713855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594897713855" />
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.0.center" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.0.left" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.0.right" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.1.center" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.1.left" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.1.right" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.2.bottom" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.2.center" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.2.left" timestamp="1587072163948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163948" />
+    <state width="1899" height="326" key="GridCell.Tab.2.right" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.3.bottom" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.3.center" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.3.left" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state width="1899" height="326" key="GridCell.Tab.3.right" timestamp="1587072163949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="326" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587072163949" />
+    <state x="738" y="145" key="RollbackChangesDialog" timestamp="1587248313180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="145" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587248313180" />
+    <state x="605" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587395995295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587395995295" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1587234783144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587234783144" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587038155237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587038155237" />
+  </component>
+</project>

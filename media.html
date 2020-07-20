@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Page</title>
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<nav class="navbar-template">
+    <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+    <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+    <ul class="nav-links display-desktop hide-mobile">
+        <li><a href="format.html">TEXT FORMATTING</a></li>
+        <li><a href="quote.html">QUOTATIONS</a></li>
+        <li><a href="tables.html">TABLES</a></li>
+        <li><a href="semantics.html">SEMANTICS</a></li>
+        <li><a href="lists.html">LISTS</a></li>
+        <li><a href="flex.html">FLEXBOX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="query.html">MEDIA QUERIES</a></li>
+        <li><a href="media.html">VIDEO</a></li>
+        <li><a href="images.html">IMAGES</a></li>
+        <li><a href="input.html">INPUT</a></li>
+    </ul>
+</nav>
+<header class="video-header container">
+    <div class="video-wrapper">
+        <video src="video/desktop-video.mp4" autoplay loop muted></video>
+    </div>
+    <div class="header-overlay"></div>
+    <div class="header-content">
+        <h1>Welcome to the video page</h1>
+        <p>The HTML Video element <b>video</b> embeds a media player which supports video playback into the document.
+        </p>
+        <a href="#section-a" class="btn">Read more</a>
+    </div>
+</header>
+<section class="section section-a" id="section-a">
+    <div class="container">
+        <!--        <h1>The HTML Inline Frame element (iframe) represents a nested browsing context, embedding another HTML page-->
+        <!--            into the current one.</h1>-->
+        <h2>description</h2>
+        <p>In a similar manner to the <b>img</b> element, we include a path to the media we want to display inside the
+            src attribute; we can include other attributes to specify information such as video width and height,
+            whether we
+            want it to autoplay and loop, whether we want to show the browser's default video controls, etc.
+            The content inside the opening and closing tags is shown as a fallback in browsers that don't support the
+            element.
+        </p>
+        <h2>autoplay</h2>
+        <p>A Boolean attribute; if specified, the video automatically begins to play back as soon as it can do so
+            without stopping to finish loading the data.
+        </p>
+        <h2>controls</h2>
+        <p>If this attribute is present, the browser will offer controls to allow the user to control video playback,
+            including volume, seeking, and pause/resume playback.</p>
+        <h2>loop</h2>
+        <p>A Boolean attribute; if specified, the browser will automatically seek back to the start upon reaching the
+            end of the video.</p>
+        <h2>muted</h2>
+        <p>A Boolean attribute that indicates the default setting of the audio contained in the video. If set, the audio
+            will be initially silenced. Its default value is false, meaning that the audio will be played when the video
+            is played.</p>
+    </div>
+</section>
+<section class="section section-b">
+    <div class="container">
+        <h1>Iframe Youtube video example</h1>
+        <p>The HTML Inline Frame element (iframe) represents a nested browsing context, <br> embedding another HTML page
+            into
+            the current one.</p>
+        <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/UiDZIiILoLo"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <p>An iframe can be used as the target frame for a link. The target attribute of the link must refer <br> to the
+            name
+            attribute of the iframe:</p>
+        <a class="yt-link" href="https://www.youtube.com/watch?v=UiDZIiILoLo"><p>Click to watch this video on
+            YouTube</p></a>
+    </div>
+</section>
+</body>
+</html>

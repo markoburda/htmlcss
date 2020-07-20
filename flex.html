@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project - Flexbox</title>
+    <link rel="stylesheet" href="style/flex.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<header>
+    <!--        <a href="index.html">-->
+    <!--            <p class="logo-text">W.P</p>-->
+    <!--        </a>-->
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<p class="flex-text">flexbox</p>
+<div class="cover">
+    <div class="cover-shadow">
+        <div class="container">
+            <div class="flex-layout">
+                <div class="fb-el"><p>The Flexible Box Module, usually referred to as flexbox, was designed as a
+                    one-dimensional layout model, and as a method that could offer space distribution between items in
+                    an interface and powerful alignment capabilities. This article gives an outline of the main features
+                    of flexbox, which we will be exploring in more detail in the rest of these guides. When we describe
+                    flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one
+                    dimension at a time — either as a row or as a column. This can be contrasted with the
+                    two-dimensional model of CSS Grid Layout, which controls columns and rows together.</p></div>
+                <div class="fb-el"><p>When working with flexbox you need to think in terms of two axes — the main axis
+                    and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs
+                    perpendicular to it. Everything we do with flexbox refers back to these axes, so it is worth
+                    understanding how they work from the outset. Another vital area of understanding is how flexbox
+                    makes no assumption about the writing mode of the document. In the past, CSS was heavily weighted
+                    towards horizontal and left-to-right writing modes. Modern layout methods encompass the range of
+                    writing modes and so we no longer assume that a line of text will start at the top left of a
+                    document and run towards the right hand side, with new lines appearing one under the other.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"><p class="read-more">you can read more here</p></a>-->
+</div>
+<p class="flex-text preview-text">preview</p>
+<p class="desc">You can also use the value space-between to take all the spare space after the items have been laid out,
+    <br> and share it out evenly between the items so there will be an equal amount of space between each item.</p>
+<div class="container middle-container">
+    <div class="flex-layout">
+        <div class="news"><p><b>justify-content</b> controls where the flex items sit on the main axis.
+            The default value is flex-start, which makes all the items sit at the start of the main axis.
+            You can use flex-end to make them sit at the end.
+            center is also a value for justify-content, and will make the flex items sit in the center of the main axis.
+            The value we've used above, space-around, is useful — it distributes all the items evenly along the main
+            axis, with a bit of space left at either end.
+            There is another value, space-between, which is very similar to space-around except that it doesn't leave
+            any space at either end.</p></div>
+        <div class="news"><p>Flexbox provides a property called <b>flex-direction</b> that specifies what direction the main
+            axis runs in (what direction the flexbox children are laid out in) — by default this is set to row, which
+            causes them to be laid out in a row in the direction your browser's default language works in (left to
+            right, in the case of an English browser).</p></div>
+        <div class="news"><p><b>align-items</b> controls where the flex items sit on the cross axis.
+
+            By default, the value is stretch, which stretches all flex items to fill the parent in the direction of the
+            cross axis. If the parent hasn't got a fixed width in the cross axis direction, then all flex items will
+            become as long as the longest flex items. This is how our first example got equal height columns by default.
+            The center value that we used in our above code causes the items to maintain their intrinsic dimensions, but
+            be centered along the cross axis. This is why our current example's buttons are centered vertically.
+            You can also have values like flex-start and flex-end, which will align all items at the start and end of
+            the cross axis respectively. See align-items for the full details.</p></div>
+    </div>
+</div>
+<p class="desc">If your main axis is column or column-reverse then the cross axis runs along the rows.</p>
+<div class="container lower-container">
+    <div class="flex-layout dir-col">
+        <div class="r-1"><p>Mauris a diam maecenas sed enim. Aliquam id diam maecenas ultricies mi eget. </p></div>
+        <div class="r-2"><p>Maecenas accumsan lacus vel facilisis volutpat est velit. Fermentum et sollicitudin ac
+            orci. </p></div>
+        <div class="r-3"><p>Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Bibendum neque egestas
+            congue quisque egestas diam. </p></div>
+    </div>
+</div>
+<footer>
+    <div>
+    </div>
+</footer>
+</body>
+</html>

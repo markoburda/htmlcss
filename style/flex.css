@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+footer{
+    background-color: #f76c6c;
+    width: 100vw;
+    height: 10vh;
+    /*clip-path: polygon(0% 91%, 29% 84%, 67% 90%, 91% 83%, 100% 100%, 0% 100%)*/
+}
+
+code{
+    font-weight: 500;
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.flex-text{
+    text-transform: uppercase;
+    text-align: center;
+    color: #f76c6c;
+    font-size: 1000%;
+    font-weight: 500;
+    position: relative;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.preview-text{
+    margin-top: -3%;
+}
+
+.cover{
+    padding: 2% 0;
+    margin: -4em 0;
+    width: 100%;
+    height: 600px;
+    background-color: #464866;
+    z-index: 1;
+    position: relative;
+}
+
+/*.cover-shadow{*/
+/*    box-shadow: -10px -10px 90px rgba(0, 0, 0, .2);*/
+    /*background-color: #33354f;*/
+    /*height: 400px;*/
+/*}*/
+
+.flex-layout{
+    display: flex;
+    z-index: 2;
+}
+
+.fb-el{
+    box-shadow: 0 0 0 30px transparent;
+    z-index: 2;
+    margin: 10% 5%;
+    color: white;
+    font-weight: 500;
+    flex: 1;
+    transition: 0.3s ease;
+}
+
+.fb-el:hover{
+    background-color: #25274d;
+    box-shadow: 0 0 0 30px #25274d;
+    transition: 0.3s ease;
+}
+
+.news{
+    flex: 1;
+    margin: 10% 5%;
+    font-weight: 400;
+}
+
+.middle-container{
+    height: 80vh;
+}
+
+.logo-text{
+    text-transform: uppercase;
+    color: white;
+    font-size: 150%;
+}
+
+.desc{
+    margin: 5% auto 0 auto;
+    text-align: center;
+    color: #949494;
+    font-weight: 500;
+}
+
+.read-more{
+    color: white;
+    font-weight: initial;
+    text-align: center;
+    text-transform: uppercase;
+    margin: -4% auto;
+}
+
+.dir-col{
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5% auto;
+    color: #f2f2f2;
+    /*background-color: #25274d;*/
+}
+
+.lower-container{
+    text-align: center;
+    font-size: .8em;
+    line-height: 5em;
+    padding: 5% 20%;
+}
+
+.r-1{
+    background: #f76c6c;
+}
+
+.r-2{
+    background: #34b3a0;;
+}
+
+.r-3{
+    background: #aa77d9;
+}
+
+.justify-container{
+    box-sizing: border-box;
+    justify-content: end;
+}
+
+.just-col{
+    box-sizing: border-box;
+    justify-content: end;
+}
+
+q{
+    /*background-color: gray;*/
+    color: black;
+}
+
+b{
+    color: #f76c6c;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project - Input</title>
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+    <link rel="stylesheet" href="style/input.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="container container-a">
+            <form action="#" class="form-container">
+                <h1>Example of form</h1>
+                <div class="form-1">
+                    <div class="textbox">
+                        <label for="fname"></label>
+                        <input type="text" placeholder="First name (autofocus)" id="fname" name="fname" autofocus
+                               required>
+                    </div>
+                    <div class="textbox">
+                        <label for="lname"></label>
+                        <input type="text" placeholder="Last name" id="lname" name="lname" required>
+                    </div>
+                    <div class="textbox">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Your e-mail" id="email" name="email" required>
+                    </div>
+                    <div class="textbox">
+                        <label for="pass"></label>
+                        <input type="password" placeholder="Your password" id="pass" name="email" required>
+                    </div>
+                    <div class="textbox">
+                        <label for="birthday"></label>
+                        <input type="date" id="birthday" name="birthday" placeholder="Birth date" required>
+                    </div>
+                </div>
+                <input type="submit" value="Submit" class="btn" id="send-btn">
+            </form>
+            <div class="desc-container">
+                <div class="desc">
+                <div class="title">
+                    <h1>The <b>form</b> Element</h1>
+                    <p>The HTML <b>form</b> element defines a form that is used to collect user input</p>
+                </div>
+                <p>The HTML <b>input</b> element is used to create interactive controls for web-based forms in order to
+                    accept data from the user; a wide variety of types of input data and control widgets are available,
+                    depending on the device and user agent. The <b>input</b> element is one of the most powerful and
+                    complex in all of HTML due to the sheer number of combinations of input types and attributes.</p>
+            </div>
+                <div class="desc desc-2">
+                <div class="title"><h1><b>input</b> types</h1></div>
+                <h3>text</h3>
+                <p> The default value. A single-line text field. Line-breaks are automatically removed from the input
+                    value.</p>
+                <h3>email</h3>
+                <p>A field for editing an email address. Looks like a <b>text</b> input, but has validation parameters
+                    and
+                    relevant keyboard in supporting browsers and devices with dynamic keyboards.</p>
+                <h3>password</h3>
+                <p>A single-line text field whose value is obscured. Will alert user if site is not secure.</p>
+                <h3>date</h3>
+                <p>A control for entering a date (year, month, and day, with no time). Opens a date picker or numeric
+                    wheels for year, month, day when active in supporting browsers.</p>
+                <h3>submit</h3>
+                <p> A button that submits the form.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container container-b">
+            <div class="desc">
+                <h3>radio</h3>
+                <p>A radio button, allowing a single value to be selected out of multiple choices with the same name
+                    value.</p>
+                <h3>checkbox</h3>
+                <p>A check box allowing single values to be selected/deselected.</p>
+                <h1>Attributes</h1>
+                <h3>checked</h3>
+                <p>Whether the command or control is checked</p>
+                <h3>placeholder</h3>
+                <p>content to be appear in the form control when the form control is empty</p>
+                <h3>autofocus</h3>
+                <p>Automatically focus the form control when the page is loaded</p>
+                <h3>required</h3>
+                <p>Boolean. A value is required or must be check for the form to be submittable</p>
+            </div>
+            <div class="radio-check-container">
+                <div class="radio-btn">
+                    <span></span><label for="radio-unchecked">
+                    <input type="radio" id="radio-unchecked">Radio button unchecked
+                    </label>
+                </div>
+                <div class="radio-btn">
+                    <label for="radio-checked">
+                    <input type="radio" id="radio-checked" checked>Radio button checked
+                    </label>
+                </div>
+                <div class="checkbox-btn">
+                    <label for="checkbox-unchecked">
+                    <input type="checkbox" id="checkbox-unchecked">Checkbox unchecked
+                    </label>
+                </div>
+                <div class="checkbox-btn">
+                    <label for="checkbox-checked">
+                    <input type="checkbox" id="checkbox-checked" checked readonly>Checkbox checked
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

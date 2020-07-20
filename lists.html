@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web project - Lists</title>
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+    <link rel="stylesheet" href="style/lists.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container container-a">
+    <h1>Ordered and Unordered lists</h1>
+    <h2 class="important">Ordered list:</h2>
+    <p>The HTML <b>ol</b> element represents an ordered list of items — typically rendered as a numbered list.</p>
+    <h2 class="important">Ordered list Attributes:</h2>
+    <h3>reversed</h3>
+    <p>This Boolean attribute specifies that the list’s items are in reverse order. Items will be numbered from high to
+        low.</p>
+    <h3>start</h3>
+    <p>An integer to start counting from for the list items. Always an Arabic numeral (1, 2, 3, etc.), even when the
+        numbering type is letters or Roman numerals. For example, to start numbering elements from the letter "d" or the
+        Roman numeral "iv," use <b>start="4"</b>.</p>
+    <h3>type</h3>
+    <p>Sets the numbering type:</p>
+    <p><b>a</b> for lowercase letters <br>
+        <b>A</b> for uppercase letters <br>
+        <b>i</b> for lowercase Roman numerals <br>
+        <b>I</b> for uppercase Roman numerals <br>
+        <b>1</b> for numbers (default)</p>
+</div>
+<div class="container container-b">
+    <h2 class="important">Example of ordered lists nested inside of each other</h2>
+    <ol class="ol-demo">
+        <li type="a">lowercase letters</li>
+        <li>Another ordered list inside
+            <ol>
+                <li type="i">lowercase Roman numerals</li>
+                <li type="I">uppercase Roman numerals</li>
+                <li type="1">numbers (default)</li>
+            </ol>
+        </li>
+        <li type="A">uppercase letters</li>
+    </ol>
+</div>
+<div class="container container-a">
+    <h2 class="important">Unordered list:</h2>
+    <p>The HTML ul element represents an unordered list of items, typically rendered as a bulleted list.</p>
+    <h2 class="important">! The attributes of Unordered list are deprecated and it is recommended to use CSS instead !</h2>
+</div>
+<div class="container container-b">
+    <h2 class="important">Example of unordered lists nested inside of each other</h2>
+    <ul class="ul-demo">
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Unordered list 1
+            <ul>
+                <li>Unordered list 1 Element 1</li>
+                <li>Unordered list 1 Element 2</li>
+                <li>Unordered list 1 Element 3</li>
+            </ul>
+        </li>
+        <li>Element 3</li>
+    </ul>
+</div>
+</body>
+</html>

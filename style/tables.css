@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /*color: #7F7F7F;*/
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 6% 20%;
+    text-align: left;
+    line-height: 1.6em;
+    height: 100%;
+}
+
+.container-a{
+    height: auto;
+}
+
+.container-b{
+    flex-direction: row;
+    background: #5e86af;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    text-align: center;
+    line-height: 1.6em;
+    height: 100vh;
+}
+
+.title *{
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+}
+
+.title b{
+    color: #91c8ff;
+}
+
+h1, p, h3{
+    margin: 0.7em 0;
+}
+
+h1{
+    color: #464866;
+}
+
+b{
+    color: #5e86af;
+}
+
+.table-container{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table{
+    margin: 5% 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    color: white;
+    background: #333333;
+}
+tr{
+    text-align: center;
+    background: white;
+    border: 2px solid #949494;
+}
+
+th{
+    background: #3a3a3a ;
+    height: 50px;
+}
+
+tr:nth-of-type(1) td{
+    background: #4c4c4c;
+}
+
+tr:nth-of-type(2) td{
+    background: #5c5c5c;
+}
+
+
+tr:nth-of-type(3) td{
+    background: #6b6b6b;
+}
+
+tr:nth-of-type(4) td{
+    background: #7a7a7a;
+}
+
+tr:nth-of-type(5) td{
+    /*background: #ffa324;*/
+    background: #3a3a3a ;
+}
+
+
+
+

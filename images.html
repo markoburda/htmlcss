@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project - Images</title>
+    <link rel="stylesheet" href="style/images.css">
+    <link rel="stylesheet" href="navbar/style/navbar-white.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container container-a">
+    <div class="bg-img"></div>
+    <h1>Introduction to images</h1>
+</div>
+<div class="container container-b">
+    <h1>The HTML <b>&lt;img></b> element embeds an image into the document.</h1>
+    <ul>
+        <li><p>The <b>src</b> attribute is required, and contains the path to the image you want to embed.</p></li>
+        <li><p>The <b>alt</b> attribute holds a text description of the image, which isn't mandatory but is incredibly
+            useful
+            for accessibility — screen readers read this description out to their users so they know what the image
+            means.
+            Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network
+            errors, content blocking, or linkrot.</p></li>
+    </ul>
+    <div class="img-container">
+        <img src="img/red-gray.jpg" alt="Red and Gray">
+        <img src="img/red-gray-2.png" alt="Red and Gray 2">
+    </div>
+</div>
+<div class="container container-c">
+    <h1>alt</h1>
+    <h2>Defines an alternative text description of the image.</h2>
+    <p>
+        Omitting alt altogether indicates that the image is a key part of the content and no textual equivalent is
+        available. Setting this attribute to an empty string (alt="") indicates that this image is not a key part of the
+        content (it’s decoration or a tracking pixel), and that non-visual browsers may omit it from rendering. Visual
+        browsers will also hide the broken image icon if the alt is empty and the image failed to display.
+
+        This attribute is also used when copying and pasting the image to text, or saving a linked image to a bookmark.
+    </p>
+    <h1>height</h1>
+    <h2>The intrinsic height of the image, in pixels. Must be an integer without a unit.</h2>
+    <h1>width</h1>
+    <h2>The intrinsic width of the image in pixels. Must be an integer without a unit.</h2>
+    <h1>src</h1>
+    <h2>The image URL.</h2>
+    <p>Mandatory for the <b>&lt;img></b> element. On browsers supporting srcset, src is treated like a candidate
+        image with a pixel density descriptor 1x, unless an image with this pixel density descriptor is already defined
+        in srcset, or unless srcset contains w descriptors.</p>
+</div>
+<div class="container container-d">
+    <h1>background-images</h1>
+    <p>The background images are drawn on stacking context layers on top of each other. The first layer specified is
+        drawn as if it is closest to the user.
+        The borders of the element are then drawn on top of them, and the background-color is drawn beneath them. How
+        the images are drawn relative to the box and its borders is defined by the background-clip and background-origin
+        CSS properties.
+        If a specified image cannot be drawn (for example, when the file denoted by the specified URI cannot be loaded),
+        browsers handle it as they would a none value.</p>
+    <h1>Background Repeat</h1>
+    <p>If the background image is smaller than the element, the image will repeat itself, horizontally and vertically,
+        until it has reached the end of the element. To avoid the background image from repeating itself, use the
+        background-repeat property.</p>
+    <b>background-repeat: no-repeat;</b>
+    <p>If you want the background image cover the entire element, you can set the background-size property to cover.
+
+        Also, to make sure the entire element is always covered, set the background-attachment property to fixed:</p>
+    <b>background-attachment: fixed;</b>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project - Tables</title>
+    <link rel="stylesheet" href="style/tables.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container container-a">
+    <h1>The Table element</h1>
+    <h3>The HTML <b>table</b> element represents tabular data — that is, information presented in a two-dimensional
+        table comprised of rows and columns of cells containing data.</h3>
+    <p>The HTML
+        <b>tr</b> element defines a row of cells in a table. The row's cells can then be established using a mix of
+        <b>td</b> (data cell) and
+        <b>th</b> (header cell) elements.
+    </p>
+    <p>The HTML <b>th</b> element defines a cell as header of a group of table cells. The exact nature of this group is
+        defined by the
+        scope and headers attributes.
+    </p>
+    <div class="title">
+        <h3><b>th</b> attributes</h3>
+    </div>
+    <h3>bgcolor</h3>
+    <p>This attribute defines the background color of each cell in a column. It consists of a 6-digit hexadecimal code
+        as defined in sRGB and is prefixed by '#'. This attribute may be used with one of sixteen predefined color
+        strings:</p>
+    <h3>colspan</h3>
+    <p>This attribute contains a non-negative integer value that indicates for how many columns the cell extends. Its
+        default value is 1. Values higher than 1000 will be considered as incorrect and will be set to the default value
+        (1).</p>
+    <h3>headers</h3>
+    <p>This attribute contains a list of space-separated strings, each corresponding to the id attribute of the
+    <b>th</b> elements that apply to this element.
+    </p>
+    <h3>rowspan</h3>
+    <p>This attribute contains a non-negative integer value that indicates for how many rows the cell extends.
+    </p>
+    <h3>scope</h3>
+    <p>This enumerated attribute defines the cells that the header element relates to.</p>
+    <div class="table-container">
+        <table>
+            <thead>
+            <tr>
+                <th colspan="3">The header spans 3 columns</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Simply two blocks</td>
+                <td>of data</td>
+            </tr>
+            <tr>
+                <td colspan="1">Spans 1 column</td>
+                <td colspan="2">Spans 2 columns</td>
+            </tr>
+            <tr>
+                <td colspan="2">Same thing but</td>
+                <td colspan="1">in reverse</td>
+            </tr>
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="1"></td>
+                <td colspan="1"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Footer, same size as the table header</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

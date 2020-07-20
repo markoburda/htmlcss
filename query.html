@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project - Media Queries</title>
+    <link rel="stylesheet" href="style/query.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-template">
+        <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+        <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+        <ul class="nav-links display-desktop hide-mobile">
+            <li><a href="format.html">TEXT FORMATTING</a></li>
+            <li><a href="quote.html">QUOTATIONS</a></li>
+            <li><a href="tables.html">TABLES</a></li>
+            <li><a href="semantics.html">SEMANTICS</a></li>
+            <li><a href="lists.html">LISTS</a></li>
+            <li><a href="flex.html">FLEXBOX</a></li>
+            <li><a href="grid.html">GRID</a></li>
+            <li><a href="query.html">MEDIA QUERIES</a></li>
+            <li><a href="media.html">VIDEO</a></li>
+            <li><a href="images.html">IMAGES</a></li>
+            <li><a href="input.html">INPUT</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container container-a">
+    <div class="query-element el-1"><p>THIS IS</p></div>
+    <div class="query-element el-2"><p>MEDIA</p></div>
+    <div class="query-element el-3"><p>QUERIES</p></div>
+</div>
+<div class="container container-b">
+    <div class="text-container text-container-a">
+        <p>Media queries are useful when you want to modify your site or app depending on a device's general type (such
+            as
+            print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport
+            width).</p>
+        <p>A media query is composed of an optional media type and any number of media feature expressions. Multiple
+            queries
+            can be combined in various ways by using logical operators. Media queries are case-insensitive.
+
+            A media query computes to true when the media type (if specified) matches the device on which a document is
+            being displayed and all media feature expressions compute as true. Queries involving unknown media types are
+            always false.</p>
+    </div>
+    <div class="media-container">
+        <h1>Media types</h1>
+        <p>Media types describe the general category of a device. Except when using the not or only logical operators,
+            the
+            media type is optional and the all type will be implied.</p>
+    </div>
+    <div class="text-container">
+        <div class="text-block">
+            <h1>all</h1>
+            <p>Suitable for all devices.</p>
+        </div>
+        <div class="text-block">
+            <h1>print</h1>
+            <p>Intended for paged material and documents viewed on a screen in print preview mode. (Please see paged
+                media
+                for information about formatting issues that are specific to these formats.)</p>
+        </div>
+        <div class="text-block">
+            <h1>screen</h1>
+            <p>Intended primarily for screens.</p>
+        </div>
+        <div class="text-block">
+            <h1>speech</h1>
+            <p>Intended for speech synthesizers.</p>
+        </div>
+    </div>
+    <div class="media-container">
+        <h1>Logical operators</h1>
+        <p>The logical operators not, and, and only can be used to compose a complex media query. You can also combine
+            multiple media queries into a single rule by separating them with commas.</p>
+    </div>
+    <div class="text-container text-container-b">
+        <div class="text-block">
+            <h1>and</h1>
+            <p>The and operator is used for combining multiple media features together into a single media query,
+                requiring each chained feature to return true in order for the query to be true. It is also used for
+                joining media features with media types.</p>
+        </div>
+        <div class="text-block">
+            <h1>not</h1>
+            <p>The not operator is used to negate a media query, returning true if the query would otherwise return
+                false. If present in a comma-separated list of queries, it will only negate the specific query to which
+                it is applied. If you use the not operator, you must also specify a media type.</p>
+        </div>
+        <div class="text-block">
+            <h1>only</h1>
+            <p>The only operator is used to apply a style only if an entire query matches, and is useful for preventing
+                older browsers from applying selected styles. When not using only, older browsers would interpret the
+                query screen and (max-width: 500px) simply as screen, ignoring the remainder of the query, and applying
+                its styles on all screens. If you use the only operator, you must also specify a media type.</p>
+        </div>
+        <div class="text-block">
+            <h1>,</h1>
+            <p>Commas are used to combine multiple media queries into a single rule. Each query in a comma-separated
+                list is treated separately from the others. Thus, if any of the queries in a list is true, the entire
+                media statement returns true. In other words, lists behave like a logical or operator.</p>
+        </div>
+    </div>
+    <h1 class="try">Try shrinking the screen to 1150px wide or less, and you'll see how the elements stack up to preserve readability</h1>
+</div>
+    <div class="queries-demo">
+        <div class="queries-block">
+            <img src="img/desktop-icon.svg" alt="">
+            <h1>DESKTOP</h1>
+            <p>Description</p>
+        </div>
+        <div class="queries-block">
+            <img src="img/tablet-icon.svg" alt="">
+            <h1>TABLET</h1>
+            <p>Description</p>
+        </div>
+        <div class="queries-block">
+            <img src="img/smartphone-icon.png" alt="">
+            <h1>SMARTPHONE</h1>
+            <p>Description</p>
+        </div>
+    </div>
+</body>
+</html>

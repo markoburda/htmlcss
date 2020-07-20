@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project - Semantics</title>
+    <link rel="stylesheet" href="style/semantics.css">
+    <link rel="stylesheet" href="navbar/style/navbar.css">
+</head>
+<body>
+<nav class="navbar-template">
+    <label for="check" class="menu-btn"><img src="../img/menu-btn.svg" alt=""></label>
+    <input type="checkbox" class="nav-icon display-mobile hide-desktop" id="check">
+    <ul class="nav-links display-desktop hide-mobile">
+        <li><a href="format.html">TEXT FORMATTING</a></li>
+        <li><a href="quote.html">QUOTATIONS</a></li>
+        <li><a href="tables.html">TABLES</a></li>
+        <li><a href="semantics.html">SEMANTICS</a></li>
+        <li><a href="lists.html">LISTS</a></li>
+        <li><a href="flex.html">FLEXBOX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="query.html">MEDIA QUERIES</a></li>
+        <li><a href="media.html">VIDEO</a></li>
+        <li><a href="images.html">IMAGES</a></li>
+        <li><a href="input.html">INPUT</a></li>
+    </ul>
+</nav>
+    <div class="container">
+        <h1>In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running
+            that line
+            of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look
+            like?".)</h1>
+        <h1>Semantics in CSS</h1>
+        <p>In CSS, consider styling a list with li elements representing different types of fruits. Would you know what
+            part of the DOM is being selected with div > ul > li, or .fruits__item?</p>
+        <h1>Semantics in HTML</h1>
+        <p>In HTML, for example, the
+            <b>h1</b> element is a semantic element, which gives the text it wraps around the role (or meaning) of "a
+            top level
+            heading on your page."</p>
+        <p>By default, most browser's user agent stylesheet will style an
+            <b>h1</b> with a large font size to make it look like a heading (although you could style it to look like
+            anything
+            you wanted).</p>
+        <p>When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that
+            I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with
+            sections and an aside of related information?; does it list out definitions?; is it a figure or image that
+            needs a caption?; should it have a header and a footer in addition to the global site-wide header and
+            footer?; etc.</p>
+    <h1>Some of semantic elements in HTML:</h1>
+        <div class="list-display">
+            <ul>
+                <li><p>article</p></li>
+                <li><p>aside</p></li>
+                <li><p>details</p></li>
+                <li><p>figure</p></li>
+                <li><p>footer</p></li>
+            </ul>
+            <ul>
+                <li><p>header</p></li>
+                <li><p>main</p></li>
+                <li><p>article</p></li>
+                <li><p>section</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container container-b">
+        <h1>Example of webpage layout naming with semantic elements</h1>
+            <div class="grid-preview">
+            <aside>Aside</aside>
+            <header>Header</header>
+            <section>Section 1</section>
+            <section>Section 2</section>
+            <section>Section 3</section>
+            <main>Main</main>
+            <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+</html>
